@@ -2,28 +2,28 @@
 class Mymule < Formula
   desc "Client for the eMule networks (eD2K and Kad) with a web interface"
   homepage "https://github.com/i234dev/MyMule"
-  version "1.3.1"
+  version "1.3.4"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/i234dev/MyMule/releases/download/v1.3.1/mymule-v1.3.1-darwin-arm64.tar.gz"
-      sha256 "167a63fb871be8e7096161cee27cb74f87b3678adbdca76fe5e4f831be10a4a7"
+      url "https://github.com/i234dev/MyMule/releases/download/v1.3.4/mymule-v1.3.4-darwin-arm64.tar.gz"
+      sha256 "14dc033f1c43f163ba829d043d42b303e4e7488214d1c48363d320a29e25fd71"
     end
     on_intel do
-      url "https://github.com/i234dev/MyMule/releases/download/v1.3.1/mymule-v1.3.1-darwin-amd64.tar.gz"
-      sha256 "09b4c75a53e8022e90b8ca60164a80b3ed4dd86c52d7002aaff4ec23c61fcb22"
+      url "https://github.com/i234dev/MyMule/releases/download/v1.3.4/mymule-v1.3.4-darwin-amd64.tar.gz"
+      sha256 "fa78689929e2d41e76aeea1aaf37a7ffbdb41bc4613c57a020b919f2e07567e7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/i234dev/MyMule/releases/download/v1.3.1/mymule-v1.3.1-linux-arm64.tar.gz"
-      sha256 "0366d021681475220895210a666ad11517a470208f9b2dcc7bc121e23f5e4ff3"
+      url "https://github.com/i234dev/MyMule/releases/download/v1.3.4/mymule-v1.3.4-linux-arm64.tar.gz"
+      sha256 "da6d6f3a2d5f4a56cb4b50bcbfbf299779700bffce2a347744a8e1181d39df4b"
     end
     on_intel do
-      url "https://github.com/i234dev/MyMule/releases/download/v1.3.1/mymule-v1.3.1-linux-amd64.tar.gz"
-      sha256 "fb8a9cb1cbea2cea4f8db4e39e1133d1ca622067a49d3e4fbe1aeb97d2e2607d"
+      url "https://github.com/i234dev/MyMule/releases/download/v1.3.4/mymule-v1.3.4-linux-amd64.tar.gz"
+      sha256 "59cce95ed500870e31deac064ca63a31f4ce8a0525e824c1ef94ebd10f7a4eb7"
     end
   end
 
